@@ -1,0 +1,16 @@
+{
+  "name": "xcachemqtt",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "mqtt": "^5.5.0",
+    "winston": "^3.13.0"
+  }
+}
