@@ -1,9 +1,17 @@
 {
   "name": "xcachemqtt",
+  "version": "1.0.0",
   "module": "index.ts",
   "type": "module",
+  "author": {
+    "name": "Puneet Sharma",
+    "email": "psharma@coolerscreens.com"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "prettier": "^3.2.5"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
